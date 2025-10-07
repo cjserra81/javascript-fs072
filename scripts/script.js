@@ -114,7 +114,8 @@
 // const numero = Number(prompt("digite um numero"));
 
 // if(numero > 0){
-//     alert("positivo");
+//     alert("positivo");                                       
+                                            
 // }else if(numero ===0 ){
 //     alert("numero neutro")
 // }
@@ -165,7 +166,7 @@
 
 // tipos não primitivos
 // Array==lista(que podem ser mistas)
-// Object==
+// Object==SIMULAM ALGO DA VIDA REAL EXEMPLO ATRIBUTOS COMO IDADE ,PROFISSÃO,OU SEJA PROPRIEDADES
 // function==
 
 //ARRAY
@@ -216,23 +217,146 @@
 //     [0,1,2,3]
 // ];
 
-
+//ARRAYS ====LISTAS
 
 // console.log(lista[1] [2].nome,idade);
 
-const nomes = ["alex","levi","hebston","paulo","yasmin","marcos","wesley","aubameyang"];
+// const nomes = ["alex","levi","hebston","paulo","yasmin","marcos","wesley","aubameyang"];
 
-for(let index = 0; index < nomes.length; index++){
-    if(nomes[index]=== "hebston"){
-        console.log(nome[index] + "é mala!");
-    }
+// for(let index = 0; index < nomes.length; index++){
+//     if(nomes[index]=== "hebston"){
+//         console.log(nomes[index] +  " é mala!");
+//     }
 
-}
-for(let index = 0; index < nomes.length; index++){
-    console.log(nome[index]);
-}
+// }
+// for(let index = 0; index < nomes.length; index++){
+//     console.log(nomes[index]);
+// }
 
 // percorra a lista de numeros
 // se o numero for divisivel por 2; imprima no console  o numero + mmar;
 // se o numero for divisivel por 5; imprima no console o numero + menino;
 // se o numero for divisivel por 2 e por 5; imprima no console o numero + marmenino;git
+//const numeros = [0,1,2,3,4,5,6,7,8,9,10];
+
+
+// CRIE UM PROGRAMA QUE RECEBA O SALARIO BRUTO DE UM FUNCIONARIO
+
+// CALCULE:
+// 10% DE DESCONTO DE INSS 
+// 5 % DE DESCONTO DE IMPOSTOS
+
+// EXIBA O SALARIO LIQUIDO NO FINAL 
+
+// const salario = Number(prompt("digite seu salario bruto"));
+
+// const inss = 10/100
+// const impostos = 5/100
+
+// alert ( "seu salario liquido é " + ( salario-(salario*inss)-(salario*impostos)));
+
+
+
+lista :1,2,3,4,5.
+
+//percorra a lista de numeros acima e imprima no console a soma de todos os seus elementos.
+//crie um acumulador para receber  a soma dos elementos e o imprima no console.
+
+
+// const lista = [1,2,3,4,5];
+//  let acumulador = 0;
+
+//  for (let i = 0; i < lista.length; i++){
+//     acumulador = acumulador + lista[i];
+//     console.log(lista[i]);
+//  }
+
+//  console.log(acumulador);   
+
+//FUNCTON FUNCTON FUNCTION FUNCTION
+
+// functions =blocos de codigo que podemos reutilizar
+
+// declaracoes de função
+// palavra reservada =function seguido de um nome e parentese
+
+// exemplo
+
+// function saudar(){
+//     console.log("olá");
+// }
+
+// saudar();
+
+// function somar(){
+//     console.log(4+4);
+// }
+
+// somar();
+
+
+
+// parametros informações externas que serão escritaas dentro dos parenteses
+
+// argumentos valor real do parametro que será dado dentro dos parenteses na execução ds função
+
+
+// function saudar(nome) {
+//     console.log( 'olá ,' + nome )
+
+// }
+
+// saudar('Alex');
+// saudar('felipe');
+// saudar('hebston');  
+
+
+// const nome = 'Alex ;
+//  function saudar(nome) {
+//     console.log('olá, ' + nome)
+//  }
+
+//  saudar(nome); 
+
+// const nome = prompt('digite seu nome:');
+
+// function saudar(nome){
+//     alert('olá, '+ nome);
+// }
+
+// saudar(nome);
+
+
+// const nome = prompt('digite seu nome:');
+// const idade = prompt('digite sua idade:');
+
+// function saudar(nome , idade){
+
+//     alert('olá '+ nome);
+//     alert ('você tem  '+ idade + " anos");
+
+// }
+
+// saudar(nome, idade);
+
+
+// crie uma função chamada verificaridade que receba uma idade coomo parametro e imprime:
+
+// menor de idade se a idade for menor que 18
+// maior de idade se a idade for 18 ou mais 
+// idade invalida se a idade for um valor nagativo ou indefinido
+
+function verificaridade(idade) {
+    if( idade >= 18){
+        console.log('maior de idade');
+
+    }else if (idade > 0){
+        console.log('menor de idade');
+    }else{
+        console.log('idade invalida');
+    }
+}
+
+verificaridade(18)
+
+
