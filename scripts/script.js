@@ -257,7 +257,7 @@
 
 
 
-lista :1,2,3,4,5.
+// lista :1,2,3,4,5.
 
 //percorra a lista de numeros acima e imprima no console a soma de todos os seus elementos.
 //crie um acumulador para receber  a soma dos elementos e o imprima no console.
@@ -346,17 +346,124 @@ lista :1,2,3,4,5.
 // maior de idade se a idade for 18 ou mais 
 // idade invalida se a idade for um valor nagativo ou indefinido
 
-function verificaridade(idade) {
-    if( idade >= 18){
-        console.log('maior de idade');
+// function verificaridade(idade) {
+//     if( idade >= 18){
+//         console.log('maior de idade');
 
-    }else if (idade > 0){
-        console.log('menor de idade');
-    }else{
-        console.log('idade invalida');
-    }
-}
+//     }else if (idade > 0){
+//         console.log('menor de idade');
+//     }else{
+//         console.log('idade invalida');
+//     }
+// }
 
-verificaridade(18)
+// verificaridade(18)
+
+//programa para saudar usuáario conforme periodo do dia
+// *crie uma função 'saudar' que receba dois parametros,nome e periodo
+// *se o periodo for manha ,saude com bom dispatchEvent,[nome do usuario]
+// *se o periodo for tarde ,saude com boa tarde,[nome do usuario]
+// *se o periodo for NodeIterator,saude com boa NodeIterator,[nome do usuario]
+// *se o periodo for invalido,informe periodo invalido
+
+// const nome = prompt ('qual o seu nme')
+// const periodo = prompt ('em qual turno do dia você está');
+
+
+// function saudar(nome, periodo){
+//     switch (periodo){
+//         case 'manhã':
+//             alert (`bom dia, ${nome} !`);
+//             break;            
+//         case 'tarde':
+//             alert (`boa tarde, ${nome} !`);
+//             break;            
+//         case 'noite':
+//             alert (`boa noite, ${nome} !`);
+//             break;    
+//             default:
+//                 alert('periodo invalido!');        
+//         }
+//     }
+
+//     saudar(nome, periodo);
+
+//resposta com if e else mesma estrutura acima contiuando apos saudar
+
+//     if (periodo === 'manha'){
+//         alert (`bom dia ,$ {nome}!`);
+//     }else if(periodo ==='tarde'){
+//         alert (`boa tarde,  ${nome}!`);
+//     }else if (periodo === 'noite'){
+//         alert(`boa noie , ${nome}!`);
+//     }else {
+//         alert(`perido invalido!`);
+//     }
+// }
+
+//  saudar (nome, periodo);                 
+
+
+// *programa para realizar verificação de nota e informar se o aluno está aprovado ou reprovado.
+// *crie um programa que peça três notas ao usuario e as armazene em uma lista.
+// *crie uma função 'calcular' que recebe a lista de notas como parametro.
+// *na função é preciso conter uma logica que percorrerá a lista recebida,some os valores da lista e calcule
+// a media aritmetica entre else.
+// *se o resultado for uma nota maior ou igual a 7,informe que o aluno está aprovado;
+// *se o resultado for uma nota menor que 7,informe que o aluno está reprovado;
+
+// const nota1 = prompt ('digite nota 1')
+// const nota2 = prompt ('digite nota 2')
+// const nota3 = prompt ('digite nota 3')
+// const lista = [0,1,2,3,4,5,6,7,8,9,10]
+
+// function calcular((nota1 +nota2+ nota3/ 3)){
+
+//     let acumulador= 0;
+//     for (let i = 0; i < nota.length; i++){
+//         acumulador = acumulador + nota[i];
+//     if ( nota[i] >= 7){
+//         alert( aprovado);
+//     }else if( nota[i] < 7 ){
+//         alert (reprovado);
+//     }
+//     }
+//     }
+
+//     calcular(nota)
+
+//resposta do professor
+
+// const nota1 = Number(prompt('qual a primeira nota ?'));
+// const nota2 = Number(prompt('qual a segunda nota ?'));
+// const nota3 = Number(prompt('qual a terceira nota ?'));
+
+// const lista = [];
+// lista.push(nota1,nota2,nota3);
+
+// function calcular(ListaDeNotas){
+//     let acumulador = 0;
+//     for (let i = 0; i < ListaDeNotas.length; i++){
+//         acumulador = acumulador + ListaDeNotas[i]    //acumulador += listadenotas[i]
+//     }
+//     const resultado = acumulador/ ListaDeNotas.length
+//     if (resultado >= 7 ){
+//         alert('aluno aprovado')
+//     }else{
+//         alert('aluno reprovado')
+//     }
+// }
+
+
+// calcular(lista);
+
+// *sistema para cadastro de produtos em estoque
+// --peça ao usuário a quantidade de produtos que ele deseja cadastrar 
+// --crie uma função "cadastrar" que receba como parametro a quantidade de produtos para cadastro desejada pelo usuário
+// --estabeleça uma lista para o armazenamento dos produtos cadastrados 
+// --para cadastro ,peça ao usuário que informe Nome,preço e quantidade de produtos e adicione a lista estabelecida. 
+// Repita o processo igualmente ao numero de produtos que o usuario deseja cadastrar 
+// --exiba a lista de produtos 
+
 
 
